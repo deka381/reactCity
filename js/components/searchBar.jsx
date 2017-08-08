@@ -15,7 +15,7 @@ class SearchBar extends React.Component {
 						</label>
 						<label className="labelBtn">
 							<input 	type="submit" value="Szukaj" 
-									onClick={this.props.handleCityClick}
+									onClick={this.props.handleCountryClick}
 							/>
 						</label>
 					</form>
