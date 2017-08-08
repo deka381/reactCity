@@ -9444,10 +9444,10 @@ var Content = function (_React$Component) {
         null,
         _react2.default.createElement(
           "div",
-          { className: "stats-container" },
+          { className: "content-container" },
           _react2.default.createElement(
             "h1",
-            { className: "stats-container__title" },
+            { className: "content-container__title" },
             chosenCountry[0].name
           ),
           _react2.default.createElement(
@@ -9456,23 +9456,32 @@ var Content = function (_React$Component) {
             _react2.default.createElement(
               "li",
               null,
+              "Country : ",
               chosenCountry[0].name
             ),
             _react2.default.createElement(
               "li",
               null,
+              "Capital : ",
               chosenCountry[0].capital
             ),
             _react2.default.createElement(
               "li",
               null,
+              "Region: ",
               chosenCountry[0].region
             ),
             _react2.default.createElement(
               "li",
               null,
+              "Money : ",
               chosenCountry[0].currencies[0].name
             )
+          ),
+          _react2.default.createElement(
+            "span",
+            null,
+            "Flag:"
           ),
           _react2.default.createElement("img", { src: chosenCountry[0].flag, alt: "placeholder+image" })
         )
@@ -9528,15 +9537,15 @@ var SearchBar = function (_React$Component) {
 				null,
 				_react2.default.createElement(
 					"div",
-					{ className: "search-container" },
+					{ className: "searchBar-container" },
 					_react2.default.createElement(
 						"span",
-						{ className: "search-container__title" },
+						{ className: "searchBar-container__title" },
 						"Get Country Info!"
 					),
 					_react2.default.createElement(
 						"span",
-						{ className: "search-container__desc" },
+						{ className: "searchBar-container__description" },
 						"Type country name you want to discover..."
 					),
 					_react2.default.createElement(
@@ -9547,7 +9556,7 @@ var SearchBar = function (_React$Component) {
 							type: "text",
 							onChange: this.props.handleSearchChange,
 							value: this.props.searchValue,
-							placeholder: "Ex: Poland, Germany, France..."
+							placeholder: "Ex: Poland, Italy, Brazil..."
 						}),
 						_react2.default.createElement(
 							"ul",

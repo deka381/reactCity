@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
+  "dependencies": {
+    "google-map-react": "^0.24.0",
+    "mapbox": "^1.0.0-beta8",
+    "point-geometry": "^0.1.0",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
@@ -25,9 +32,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^15.4.0",
-    "react-dom": "^15.4.0"
-  }
+  "license": "ISC"
 }
